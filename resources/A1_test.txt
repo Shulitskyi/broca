@@ -1,0 +1,1 @@
+[{"hanzi": "\u7231", "pinyin": "\u00e0i", "translations": ["to love", "affection", "to be fond of", "to like"]}, {"hanzi": "\u516b", "pinyin": "b\u0101", "translations": ["eight", "8"]}]

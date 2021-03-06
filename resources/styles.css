@@ -1,0 +1,115 @@
+#background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hanzi-text {
+  font-family: Colfax-Light;
+  text-anchor: middle;
+  text-length: 10;
+  x: 150;
+  y: 160;
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.pinyin-text {
+  font-family: Colfax-Light;
+  font-size: 50;
+  text-anchor: middle;
+  text-length: 1000;
+  x: 150;
+  y: 150;
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.dateTime {
+  font-family: Colfax-Light;
+  font-size: 40;
+  text-anchor: middle;
+  text-length: 1000;
+  x: 150;
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+#clock-month{
+  y:40;
+}
+
+#clock-weekday{
+  y:90;
+}
+
+#clock-day{
+  y:140;
+}
+
+#clock-part-of-day{
+  y:190;
+}
+
+.dateTime{
+  display:none;
+}
+
+.eng-text {
+  font-family: Colfax-Light;
+  font-size: 20;
+  text-anchor: middle;
+  text-length: 1000;
+  x: 150;
+  y: 210;
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+#clock-label{
+ x: 50%;
+ y: 280;
+ fill: white;
+ font-weight:bold;
+ font-size: 90;
+ font-family: Colfax-Light;
+ text-anchor: middle;
+ text-length:20;
+ display:none;
+}
+
+.divider {
+  x: 39;
+  width: 222;
+  height: 1;
+  fill: white;
+}
+
+.divider-top {
+  y: 100;
+}
+
+.divider-bottom {
+  y: 170;
+}
+
+.divider{
+  display:none;
+}
+.eng-text {
+  display:none;
+}
+.pinyin-text{
+  display:none;
+}
+#green-dot{
+  display:none;
+}
+#orange-dot{
+  display:none;
+}

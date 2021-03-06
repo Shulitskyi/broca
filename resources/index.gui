@@ -1,0 +1,24 @@
+<svg>
+  <rect id="background"></rect>
+  <textarea id="screen" pointer-events="visible">
+  <text id="hanzi" class="hanzi-text"></text>
+  <rect id="dividerTop" class="divider divider-top" />
+  <text id="pinyin" class="pinyin-text"></text>
+  <rect id="dividerBottom" class="divider divider-bottom" />
+  <text id="eng" class="eng-text" text-overflow="ellipsis"></text>
+  <text id="clock-label">00:00</text>
+  <text id="clock-month" class="dateTime" >M</text>
+  <text id="clock-weekday" class="dateTime">W</text>
+  <text id="clock-day" class="dateTime">D</text>
+  <text id="clock-part-of-day" class="dateTime">PD</text>
+  </textarea>
+  <circle id="green-dot-area" pointer-events="visible" class="dot" cx="30%" cy="90%" r="50" fill="white" opacity="0">
+  <circle id="green-dot" class="dot" cx="30%" cy="90%" r="25" fill="green" />
+  </circle>
+  <circle id="orange-dot-area" pointer-events="visible" class="dot" cx="70%" cy="90%" r="50" fill="white" opacity="0">
+  <circle id="orange-dot" class="dot" cx="70%" cy="90%" r="25" fill="orange" />
+  </circle>
+  <!--
+  <circle id="red-dot" class="dot" cx="90%" cy="90%" r="25" fill="red" />
+  -->
+</svg>
